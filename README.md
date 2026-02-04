@@ -69,7 +69,7 @@
 
   nav a {
     color: white;
-    text-decoration: none;
+    
     font-weight: bold;
     cursor: pointer;
   }
