@@ -45,7 +45,6 @@
     /* ---------- qui continua il tuo CSS originale ---------- */
 
     body {
-      margin: 0;
       font-family: system-ui, Arial, sans-serif;
       background: #f4f4f4;
       color: #213;
