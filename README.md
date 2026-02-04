@@ -1,7 +1,7 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=0.4">
+  <meta name="viewport" content="width=device-width, initial-scale=0.7">
 
   <title>Edil Garden – Prodotti</title>
 
