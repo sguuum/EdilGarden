@@ -1310,6 +1310,3 @@ body.with-fixed-header .site-wrapper {
   });
 
 </script>
-
-</body>
-</html>
