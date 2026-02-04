@@ -181,7 +181,6 @@
   }
 
   #zoom-popup img {
-    max-width: 90%;
     max-height: 90%;
     border-radius: 12px;
     cursor: zoom-out;
