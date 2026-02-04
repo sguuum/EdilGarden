@@ -203,7 +203,7 @@
 
 :root{
   --side-color: #083826;
-  --side-width: 90px;
+  --side-width: 3px;
   --content-maxw: 1150px;
   --page-vertical-gap: -16px;
   --content-bg: #ffffff;
