@@ -255,7 +255,7 @@ body.with-fixed-header .site-wrapper {
 }
 
 /* responsive */
-@media (max-width: 1024px) { :root { --side-width: 60px; } }
+@media (max-width: 1024px) { :root { --side-width: 3px; } }
 @media (max-width: 600px) {
   :root { --side-width: 0px; }
   body::before, body::after { display: none; }
