@@ -95,6 +95,11 @@
   }
 
   /* CONTENITORE */
+     .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px;
+  }
  
 
   h1 {
