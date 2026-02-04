@@ -245,10 +245,8 @@ body::after  { right: 0; }
   border-radius: var(--content-radius);
   box-shadow: var(--content-shadow);
   overflow: hidden;
-  padding: 30px;
   min-height: calc(100vh - (var(--page-vertical-gap) * 2));
-  outline: var(--frame-border) solid var(--side-color);
-  outline-offset: -12px;
+  
 }
 
 /* se header è fixed, aggiusta il padding-top */
