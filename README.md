@@ -96,7 +96,7 @@
   /* CONTENITORE */
      .container {
     max-width: 1200px;
-    margin: auto;
+    margin: - 14;
     padding: 25px;
   }
  
@@ -259,7 +259,7 @@ body.with-fixed-header .site-wrapper {
 @media (max-width: 600px) {
   :root { --side-width: 0px; }
   body::before, body::after { display: none; }
-  .site-wrapper { margin: 12px; padding: 18px; min-height: auto; outline-offset: -8px; }
+  .site-wrapper { margin: -8px; padding: 18px; min-height: auto; outline-offset: -8px; }
 }
 
 
