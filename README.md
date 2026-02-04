@@ -1,4 +1,3 @@
-[EdilGarden.html](https://github.com/user-attachments/files/25069487/EdilGarden.html)
 <!DOCTYPE html>
 <html lang="it">
 <head>
