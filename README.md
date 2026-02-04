@@ -269,11 +269,6 @@ body.with-fixed-header .site-wrapper {
     padding: 10px;
   }
 
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
-
   img {
     max-width: 100%;
     height: auto;
