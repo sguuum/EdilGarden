@@ -215,7 +215,7 @@
 /* sfondo pagina verde scuro visibile ai lati */
 html, body {
   height: 100%;
-  margin: -8;
+  margin: -7;
   background: var(--side-color);
   box-sizing: border-box;
 }
