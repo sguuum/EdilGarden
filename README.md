@@ -8,7 +8,7 @@
   <style>
     /* iOS / Safari fixes */
     * {
-      -webkit-text-size-adjust: 148%;
+      -webkit-text-size-adjust: 120%;
     }
 
     /* evita riduzione automatica font */
