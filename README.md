@@ -28,16 +28,6 @@
     .gallery {
       -webkit-overflow-scrolling: touch;
     }
-
-    /* Hero mobile */
-    @media (max-width: 600px) {
-      .hero {
-        font-size: 26px !important;
-        height: 130px !important;
-        padding-top: 30px !important;
-        background-size: cover;
-        grid-template-columns: repeat(2, 1fr);
-      }
       nav {
         padding: 10px 16px;
       }
@@ -111,13 +101,6 @@
   h2 {
     color: #2d523c;
     margin-top: 20px;
-  }
-
-  /* GRIGLIA PRODOTTI */
-  .grid{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* PC = 3 colonne */
-  gap: 20px;
   }
 
   .product {
@@ -262,10 +245,6 @@ body.with-fixed-header .site-wrapper {
 }
 
 
-@media (max-width: 600px) {
-  .grid{
-    grid-template-columns: repeat(2, 1fr); /* 2 colonne su telefono */
-  }
 
   body::before,
   body::after{
