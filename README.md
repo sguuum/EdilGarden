@@ -177,11 +177,11 @@
     background: rgba(0,0,0,0.85);
     display: none;
     justify-content: center;
-    z-index: 9999;
+   
   }
 
   #zoom-popup img {
-    max-height: 55%;
+    max-height: 53%;
     border-radius: 12px;
     cursor: zoom-out;
     transition: transform 0.15s ease;
