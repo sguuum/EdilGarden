@@ -1,162 +1,383 @@
-
+<!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <title>Edil Garden – Prodotti</title>
+<meta charset="UTF-8">
 
-  <style>
-    /* ---------------- iOS / Safari fixes ---------------- */
-    * { -webkit-text-size-adjust: 100%; box-sizing: border-box; }
-    html, body { height: 100%; margin: 0; }
+<!-- viewport corretto -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    /* evita riduzione automatica font e overflow orizzontale */
-    body {
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: #f4f4f4;
-      color: #213;
-      overflow-x: hidden;
-      padding-top: env(safe-area-inset-top);
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
+<title>Edil Garden – Prodotti</title>
 
-    /* ---------- root variables (tweak qui) ---------- */
-    :root{
-      --side-color: #083826;
-      --accent: #2d523c;
-      --content-maxw: 1150px;
-      --content-bg: #ffffff;
-      --content-radius: 18px;
-      --gap: 20px;
-      --card-radius: 12px;
-      --shadow: 0 6px 18px rgba(0,0,0,0.08);
-    }
+<style>
 
-    /* bande laterali verde scuro visibili ai lati su schermi grandi */
-    body::before, body::after {
-      content: "";
-      position: fixed;
-      top: 0; bottom: 0;
-      width: 3px;
-      background: var(--side-color);
-      z-index: 0; pointer-events: none;
-    }
-    body::before { left: 0; }
-    body::after  { right: 0; }
+/* ================== FIX iOS / SAFARI ================== */
+*{
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
 
-    /* wrapper centrale che racchiude tutto il sito */
-    .site-wrapper {
-      position: relative;
-      z-index: 1;
-      max-width: var(--content-maxw);
-      margin: 12px auto;
-      background: var(--content-bg);
-      border-radius: var(--content-radius);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
-      overflow: hidden;
-      min-height: calc(100vh - 48px);
-    }
+body{
+  overflow-x: hidden;
+  padding-top: env(safe-area-inset-top);
+}
 
-    /* HERO */
-    .hero {
-      width: 100%;
-      height: 170px;
-      background-image: url('https://www.casetteinlegnobrescia.it/casette-in-legno-top.jpg');
-      background-position: center;
-      background-size: cover;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-shadow: 0 3px 8px rgba(0,0,0,0.6);
-      font-size: 32px;
-      font-weight: 700;
-      letter-spacing: -1px;
-      border-bottom: 3px solid var(--accent);
-    }
+/* immagini responsive */
+img, video{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
-    /* MENU (fixed) */
-    nav {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      background: var(--accent);
-      padding: 12px 20px;
-      display: flex; gap: 18px; align-items: center;
-      z-index: 1000;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    }
-    nav a {
-      color: #fff; text-decoration: none; font-weight: 700; cursor: pointer;
-      padding: 6px 8px; border-radius: 8px;
-    }
-    nav a:hover, nav a:focus { background: rgba(255,255,255,0.06); outline: none; }
+/* smoother scrolling galleria */
+.gallery{
+  -webkit-overflow-scrolling: touch;
+}
 
-    /* contenitore interno usato dalla pagina (spaziatura coerente) */
-    .container {
-      max-width: var(--content-maxw);
-      margin: 0 auto;
-      padding: 18px;
-    }
 
-    /* GRIGLIA PRODOTTI (pattern, verrà usata in seguito) */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: var(--gap);
-      align-items: start;
-    }
+/* ================== HERO MOBILE ================== */
+@media (max-width:600px){
 
-    .product {
-      background: #fff;
-      border-radius: var(--card-radius);
-      overflow: hidden;
-      box-shadow: var(--shadow);
-      display: flex; flex-direction: column;
-      transition: transform .14s ease, box-shadow .14s ease;
-    }
-    .product:hover { transform: translateY(-6px); box-shadow: 0 12px 30px rgba(0,0,0,0.12); }
+  .hero{
+    font-size:26px!important;
+    height:130px!important;
+    padding-top:30px!important;
+    background-size:cover;
+  }
 
-    .product img { width: 100%; height: auto; display:block; object-fit: cover; }
+  nav{
+    padding:10px 16px;
+  }
 
-    /* immagini/media con aspect-ratio per evitare distorsioni */
-    .media { width:100%; aspect-ratio: 4/3; overflow:hidden; background:#eee; }
-    .media img { width:100%; height:100%; object-fit:cover; display:block; }
+}
 
-    /* Galleria generica */
-    .gallery { display:flex; flex-wrap:wrap; gap:12px; }
-    .gallery img { width:300px; height:200px; object-fit:cover; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.15); }
 
-    /* Popup zoom CSS-only (usato più avanti se desideri) */
-    #zoom-popup { position: fixed; inset: 0; background: rgba(0,0,0,0.85); display:none; justify-content:center; align-items:center; }
-    #zoom-popup img { max-height: 80vh; border-radius: 12px; }
+/* ================== BASE ================== */
 
-    /* accessibilità focus */
-    a:focus, button:focus { outline: 3px solid rgba(45,82,60,0.22); outline-offset: 3px; }
+body{
+  font-family: system-ui, Arial, sans-serif;
+  background:#f4f4f4;
+  color:#213;
+  padding-top:68px;
+  margin:0;
+}
 
-    /* ---------- Responsive tweaks ---------- */
-    @media (max-width: 1024px) {
-      .site-wrapper { margin: 8px; }
-    }
-    @media (max-width: 600px) {
-      :root { --gap: 12px; --content-radius: 12px; }
-      nav { padding: 10px 12px; }
-      .hero { height: 130px; font-size: 26px; }
-      body::before, body::after { display: none; }
-      .site-wrapper { margin: 0; border-radius: 0; box-shadow: none; }
-      .media { aspect-ratio: 3/2; }
-    }
 
-  </style>
+/* ================== MENU ================== */
+
+nav{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  background:#2d523c;
+  padding:15px 25px;
+
+  display:flex;
+  flex-wrap:wrap;
+  gap:25px;
+
+  z-index:1000;
+  box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+nav a{
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
+  text-decoration:none;
+}
+
+nav a:hover{
+  text-decoration:underline;
+}
+
+
+/* ================== HERO ================== */
+
+.hero{
+  width:100%;
+  height:170px;
+
+  background:url('https://www.casetteinlegnobrescia.it/casette-in-legno-top.jpg');
+  background-position:center;
+  background-size:cover;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  color:white;
+  text-shadow:0 3px 8px rgba(0,0,0,0.6);
+
+  font-size:32px;
+  font-weight:bold;
+  letter-spacing:-2px;
+
+  border-bottom:3px solid #2d523c;
+}
+
+
+/* ================== CONTENITORE ================== */
+
+.container{
+  max-width:1200px;
+  margin:0 auto;
+  padding:25px;
+}
+
+
+/* ================== TITOLI ================== */
+
+h1{
+  color:#2d523c;
+  margin-bottom:25px;
+  font-size:32px;
+}
+
+h2{
+  color:#2d523c;
+  margin-top:20px;
+}
+
+
+/* ================== GRIGLIA PRODOTTI ================== */
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+  gap:20px;
+}
+
+.product{
+  background:white;
+  border-radius:12px;
+  overflow:hidden;
+
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
+
+  cursor:pointer;
+  transition:transform .15s ease;
+}
+
+.product:hover{
+  transform:scale(1.03);
+}
+
+.product img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+}
+
+.product-title{
+  padding:15px;
+  font-weight:bold;
+  color:#2d523c;
+  text-align:center;
+}
+
+
+/* ================== SEZIONI ================== */
+
+.section{
+  display:none;
+
+  background:white;
+  padding:25px;
+  border-radius:12px;
+
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
+
+  margin-top:30px;
+}
+
+
+/* ================== GALLERY ================== */
+
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:15px;
+}
+
+.gallery img{
+  width:300px;
+  height:200px;
+
+  object-fit:cover;
+  border-radius:10px;
+
+  cursor:zoom-in;
+
+  box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+
+/* ================== POPUP ZOOM ================== */
+
+#zoom-popup{
+  position:fixed;
+  inset:0;
+
+  background:rgba(0,0,0,0.85);
+
+  display:none;
+
+  justify-content:center;
+  align-items:center;
+
+  z-index:5000;
+}
+
+#zoom-popup img{
+  max-height:80vh;
+  border-radius:12px;
+
+  cursor:zoom-out;
+  transition:transform 0.15s ease;
+}
+
+
+/* ================== PULSANTE BACK ================== */
+
+.back-btn{
+  margin-top:20px;
+
+  background:#2d523c;
+  color:white;
+
+  padding:10px 18px;
+
+  border:none;
+  border-radius:8px;
+
+  cursor:pointer;
+}
+
+.back-btn:hover{
+  opacity:0.9;
+}
+
+
+/* ================== VARIABILI LAYOUT ================== */
+
+:root{
+  --side-color:#083826;
+  --side-width:3px;
+
+  --content-maxw:1150px;
+
+  --page-vertical-gap:16px;
+
+  --content-bg:#ffffff;
+
+  --content-radius:23px;
+
+  --content-shadow:0 10px 30px rgba(0,0,0,0.20);
+}
+
+
+/* ================== SFONDO LATERALE ================== */
+
+html, body{
+  height:100%;
+  background:var(--side-color);
+}
+
+
+/* bande laterali */
+body::before,
+body::after{
+  content:"";
+
+  position:fixed;
+  top:0;
+  bottom:0;
+
+  width:var(--side-width);
+
+  background:var(--side-color);
+
+  z-index:0;
+  pointer-events:none;
+}
+
+body::before{ left:0; }
+body::after{ right:0; }
+
+
+/* ================== WRAPPER ================== */
+
+.site-wrapper{
+  position:relative;
+  z-index:1;
+
+  max-width:var(--content-maxw);
+
+  margin:var(--page-vertical-gap) auto;
+
+  background:var(--content-bg);
+
+  border-radius:var(--content-radius);
+
+  box-shadow:var(--content-shadow);
+
+  overflow:hidden;
+
+  min-height:calc(100vh - 32px);
+}
+
+
+/* ================== RESPONSIVE ================== */
+
+@media(max-width:1024px){
+  :root{
+    --side-width:2px;
+  }
+}
+
+@media(max-width:600px){
+
+  :root{
+    --side-width:0px;
+  }
+
+  body::before,
+  body::after{
+    display:none;
+  }
+
+  .site-wrapper{
+    margin:0;
+    border-radius:0;
+    box-shadow:none;
+  }
+
+  body{
+    font-size:16px;
+    padding:10px;
+  }
+
+}
+
+
+</style>
 </head>
 
 <body>
-  <div class="site-wrapper">
-    <!-- MENU -->
-    <nav>
-      <a href="#home">Home</a>
-    </nav>
+
+<div class="site-wrapper">
+
+<!-- ================= MENU ================= -->
+
+<nav>
+  <a onclick="showHome()">Home</a>
+</nav>
+
+<!-- ================= QUI CONTINUA LA HOME ================= -->
+
+
 
     <!-- fino a qui (Home) --- (proseguiamo la pagina oltre su tua richiesta) -->
 
