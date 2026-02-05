@@ -268,7 +268,7 @@ body.with-fixed-header .site-wrapper {
   }
 
   img {
-    max-width: 100%;
+    max-width: -webkit-fill-available;
     height: auto;
   }
 
