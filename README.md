@@ -49,7 +49,7 @@
       font-family: system-ui, Arial, sans-serif;
       background: #f4f4f4;
       color: #213;
-      padding-top: 68px;
+      padding-top: 45px;
     }
 
     /* MENU */
