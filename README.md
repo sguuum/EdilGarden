@@ -8,7 +8,7 @@
   <style>
     /* iOS / Safari fixes */
     * {
-      -webkit-text-size-adjust: 129%;
+      -webkit-text-size-adjust: 149%;
     }
 
     /* evita riduzione automatica font */
@@ -86,7 +86,7 @@
     justify-content: center;
     color: white;
     text-shadow: 0 3px 8px rgba(0,0,0,0.6);
-    font-size: 29px;
+    font-size: 32px;
     font-weight: bold;
     letter-spacing: -2px;
     border-bottom: 3px solid #2d523c;
