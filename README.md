@@ -172,7 +172,7 @@
 
   /* POPUP ZOOM */
   #zoom-popup {
-    position: fixed;
+   background-position: center;
     inset: 0;
     background: rgba(0,0,0,0.85);
     display: none;
