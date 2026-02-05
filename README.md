@@ -79,7 +79,7 @@
   /* HERO */
   .hero {
     width: 100%;
-    height: 170px;
+    height: 174px;
     background: url('https://www.casetteinlegnobrescia.it/casette-in-legno-top.jpg');
     background-position: center;
   
@@ -88,9 +88,9 @@
     justify-content: center;
     color: white;
     text-shadow: 0 3px 8px rgba(0,0,0,0.6);
-    font-size: 35px;
+    font-size: 34,5px;
     font-weight: bold;
-    letter-spacing: -2px;
+    letter-spacing: 0px;
     border-bottom: 3px solid #2d523c;
   }
 
@@ -208,7 +208,6 @@
   --content-bg: #ffffff;
   --content-radius: 23px;
   --content-shadow: 0 10px 30px rgba(0,0,0,0.20);
-  --frame-border: 12px;
 }
 
 /* sfondo pagina verde scuro visibile ai lati */
