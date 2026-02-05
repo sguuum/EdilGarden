@@ -88,7 +88,7 @@
     justify-content: center;
     color: white;
     text-shadow: 0 3px 8px rgba(0,0,0,0.6);
-    font-size: 34px;
+    font-size: 33px;
     font-weight: bold;
     letter-spacing: 0px;
     border-bottom: 3px solid #2d523c;
@@ -113,10 +113,10 @@
   }
 
   /* GRIGLIA PRODOTTI */
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 20px;
+  .grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* PC = 3 colonne */
+  gap: 20px;
   }
 
   .product {
@@ -138,7 +138,7 @@
   }
 
   .product-title {
-    padding: 15px;
+    padding: 9px;
     font-weight: bold;
     color: #2d523c;
     text-align: center;
