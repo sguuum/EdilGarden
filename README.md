@@ -88,7 +88,7 @@
     justify-content: center;
     color: white;
     text-shadow: 0 3px 8px rgba(0,0,0,0.6);
-    font-size: 43px;
+    font-size: 35px;
     font-weight: bold;
     letter-spacing: -2px;
     border-bottom: 3px solid #2d523c;
@@ -134,7 +134,7 @@
 
   .product img {
     width: 100%;
-    height: 180px;
+    height: 200px;
     object-fit: cover;
   }
 
