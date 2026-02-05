@@ -311,6 +311,19 @@ body.with-fixed-header .site-wrapper {
 }
 
 
+    /* — 3 su PC e 2 su TELEFONO — */
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonne su desktop */
+  gap: 20px;
+}
+
+@media (max-width: 600px){
+  .grid{
+    grid-template-columns: repeat(2, 1fr); /* 2 colonne su telefono */
+  }
+}
+
 
 </style>
 </head>
