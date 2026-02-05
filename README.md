@@ -88,7 +88,7 @@
     justify-content: center;
     color: white;
     text-shadow: 0 3px 8px rgba(0,0,0,0.6);
-    font-size: 34,5px;
+    font-size: 34px;
     font-weight: bold;
     letter-spacing: 0px;
     border-bottom: 3px solid #2d523c;
@@ -177,12 +177,11 @@
     background: rgba(0,0,0,0.85);
     display: none;
     justify-content: center;
-    z-index: 9999;
   }
 
   #zoom-popup img {
-    max-width: 90%;
-    max-height: 90%;
+    
+    max-height: 65%;
     border-radius: 12px;
     cursor: zoom-out;
     transition: transform 0.15s ease;
