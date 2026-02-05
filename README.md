@@ -1,33 +1,14 @@
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-
-<!-- viewport corretto -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Edil Garden – Prodotti</title>
-
-<style>
-
-/* ================== FIX iOS / SAFARI ================== */
-*{
-  -webkit-text-size-adjust: 100%;
-  box-sizing: border-box;
-}
-
-body{
-  overflow-x: hidden;
-  padding-top: env(safe-area-inset-top);<html lang="it">
-<head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=0.36">
+  <meta name="viewport" content="width=device-width, initial-scale=0.44">
 
   <title>Edil Garden – Prodotti</title>
 
   <style>
     /* iOS / Safari fixes */
     * {
-      -webkit-text-size-adjust: 148%;
+      -webkit-text-size-adjust: 100%;
     }
 
     /* evita riduzione automatica font */
@@ -38,6 +19,7 @@ body{
 
     /* immagini e media responsive */
     img, video {
+      max-width: 100%;
       height: auto;
       display: block;
     }
@@ -63,6 +45,7 @@ body{
     /* ---------- qui continua il tuo CSS originale ---------- */
 
     body {
+      margin: 0;
       font-family: system-ui, Arial, sans-serif;
       background: #f4f4f4;
       color: #213;
@@ -86,7 +69,7 @@ body{
 
   nav a {
     color: white;
-    
+    text-decoration: none;
     font-weight: bold;
     cursor: pointer;
   }
@@ -105,19 +88,18 @@ body{
     justify-content: center;
     color: white;
     text-shadow: 0 3px 8px rgba(0,0,0,0.6);
-    font-size: 32px;
+    font-size: 43px;
     font-weight: bold;
     letter-spacing: -2px;
     border-bottom: 3px solid #2d523c;
   }
 
   /* CONTENITORE */
-     .container {
+  .container {
     max-width: 1200px;
-    margin: - 14;
+    margin: auto;
     padding: 25px;
   }
- 
 
   h1 {
     color: #2d523c;
@@ -196,11 +178,12 @@ body{
     background: rgba(0,0,0,0.85);
     display: none;
     justify-content: center;
-   
+    z-index: 9999;
   }
 
   #zoom-popup img {
-    max-height: 53%;
+    max-width: 90%;
+    max-height: 90%;
     border-radius: 12px;
     cursor: zoom-out;
     transition: transform 0.15s ease;
@@ -220,7 +203,7 @@ body{
 
 :root{
   --side-color: #083826;
-  --side-width: 3px;
+  --side-width: 90px;
   --content-maxw: 1150px;
   --page-vertical-gap: -16px;
   --content-bg: #ffffff;
@@ -232,7 +215,7 @@ body{
 /* sfondo pagina verde scuro visibile ai lati */
 html, body {
   height: 100%;
-  margin: -7;
+  margin: 0;
   background: var(--side-color);
   box-sizing: border-box;
 }
@@ -262,8 +245,10 @@ body::after  { right: 0; }
   border-radius: var(--content-radius);
   box-shadow: var(--content-shadow);
   overflow: hidden;
+  padding: 30px;
   min-height: calc(100vh - (var(--page-vertical-gap) * 2));
-  
+  outline: var(--frame-border) solid var(--side-color);
+  outline-offset: -12px;
 }
 
 /* se header è fixed, aggiusta il padding-top */
@@ -272,11 +257,11 @@ body.with-fixed-header .site-wrapper {
 }
 
 /* responsive */
-@media (max-width: 1024px) { :root { --side-width: 3px; } }
+@media (max-width: 1024px) { :root { --side-width: 60px; } }
 @media (max-width: 600px) {
   :root { --side-width: 0px; }
   body::before, body::after { display: none; }
-  .site-wrapper { margin: -8px; padding: 18px; min-height: auto; outline-offset: -8px; }
+  .site-wrapper { margin: 12px; padding: 18px; min-height: auto; outline-offset: -8px; }
 }
 
 
@@ -286,8 +271,13 @@ body.with-fixed-header .site-wrapper {
     padding: 10px;
   }
 
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
   img {
-    max-width: -webkit-fill-available;
+    max-width: 100%;
     height: auto;
   }
 
@@ -318,7 +308,6 @@ body.with-fixed-header .site-wrapper {
   <!-- HOME CON TUTTI I PRODOTTI -->
   <div id="home">
     <h1>I nostri prodotti</h1>
-
 
     <div class="grid">
 
