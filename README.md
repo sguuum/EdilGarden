@@ -8,7 +8,7 @@
   <style>
     /* iOS / Safari fixes */
     * {
-      -webkit-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 121%;
     }
 
     /* evita riduzione automatica font */
@@ -96,7 +96,7 @@
 
   /* CONTENITORE */
   .container {
-    max-width: 1200px;
+    max-width: 800px;
     margin: auto;
     padding: 25px;
   }
