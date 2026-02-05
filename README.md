@@ -240,7 +240,6 @@ body::after  { right: 0; }
   background: var(--content-bg);
   border-radius: var(--content-radius);
   box-shadow: var(--content-shadow);
-  overflow: hidden;
   min-height: calc(100vh - (var(--page-vertical-gap) * 2));
   outline: var(--frame-border) solid var(--side-color);
   outline-offset: -12px;
