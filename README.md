@@ -261,10 +261,9 @@ body.with-fixed-header .site-wrapper {
 }
 
 
-@media(max-width:600px){
-
-  :root{
-    --side-width:0px;
+@media (max-width: 600px) {
+  .grid{
+    grid-template-columns: repeat(2, 1fr); /* 2 colonne su telefono */
   }
 
   body::before,
@@ -284,9 +283,7 @@ body.with-fixed-header .site-wrapper {
   }
 
   /* --- QUI: griglia 2 colonne per telefono --- */
-  .grid{
-    grid-template-columns: repeat(2, 1fr); /* Telefono = 2 colonne */
-  }
+ 
 
   /* opzionale: immagini più basse su mobile */
   .product img{
