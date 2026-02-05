@@ -261,11 +261,40 @@ body.with-fixed-header .site-wrapper {
 }
 
 
-@media (max-width: 600px) {
-  body {
-    font-size: 16px;
-    padding: 10px;
+@media(max-width:600px){
+
+  :root{
+    --side-width:0px;
   }
+
+  body::before,
+  body::after{
+    display:none;
+  }
+
+  .site-wrapper{
+    margin:0;
+    border-radius:0;
+    box-shadow:none;
+  }
+
+  body{
+    font-size:16px;
+    padding:10px;
+  }
+
+  /* --- QUI: griglia 2 colonne per telefono --- */
+  .grid{
+    grid-template-columns: repeat(2, 1fr); /* Telefono = 2 colonne */
+  }
+
+  /* opzionale: immagini più basse su mobile */
+  .product img{
+    height:140px;
+  }
+
+}
+
 
   .container {
     width: 100%;
