@@ -36,6 +36,7 @@
         height: 130px !important;
         padding-top: 30px !important;
         background-size: cover;
+        grid-template-columns: repeat(2, 1fr);
       }
       nav {
         padding: 10px 16px;
