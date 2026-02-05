@@ -319,11 +319,6 @@ body.with-fixed-header .site-wrapper {
   <div id="home">
     <h1>I nostri prodotti</h1>
 
-<!-- ================= QUI CONTINUA LA HOME ================= -->
-
-
-
-    <!-- fino a qui (Home) --- (proseguiamo la pagina oltre su tua richiesta) -->
 
     <div class="grid">
 
