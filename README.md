@@ -274,7 +274,7 @@ body.with-fixed-header .site-wrapper {
 
   body{
     font-size:16px;
-    padding:10px;
+    padding:30px;
   }
 
   /* --- QUI: griglia 2 colonne per telefono --- */
