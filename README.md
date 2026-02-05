@@ -276,12 +276,6 @@ body.with-fixed-header .site-wrapper {
   }
 
   /* --- QUI: griglia 2 colonne per telefono --- */
- 
-
-  /* opzionale: immagini più basse su mobile */
-  .product img{
-    height:140px;
-  }
 
 }
 
