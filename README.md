@@ -8,7 +8,7 @@
   
 <style>
 /* Basic resets */
-* { box-sizing: border-box; -webkit-text-size-adjust: 83%; }
+* { box-sizing: border-box; -webkit-text-size-adjust: 71%; }
 html,body { margin:-7; padding:0; height:100%; font-family: system-ui, Arial, sans-serif; background: #083826; color: #213; }
 
 /* central site wrapper */
@@ -34,7 +34,7 @@ html,body { margin:-7; padding:0; height:100%; font-family: system-ui, Arial, sa
 /* header / nav */
 nav{
   background: #2d523c;
-  padding: 14px 18px;
+  padding: 5px 18px;
   display:flex;
   align-items:center;
   gap:16px;
@@ -121,7 +121,7 @@ h1{ font-size:28px; margin-top:6px; }
   .grid{ grid-template-columns: repeat(2, 1fr); } /* phones/tablets: 2 columns */
   .gallery img{ width: calc(50% - 6px); height:140px; }
   .hero{ height:73px; font-size:21px; }
-  .container{ padding:0 12px 40px; }
+  .container{ padding:0 2px 40px; }
 }
 
 @media (max-width: 420px){
