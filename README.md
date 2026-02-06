@@ -905,7 +905,7 @@ img,video{ max-width:100%; height:auto; display:block; }
     <h2>Case mobili</h2>
     <div class="gallery">
 
-      <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/NGDkmhp9/20130105-132223.jpg"><p>1</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/NGDkmhp9/20130105-132223.jpg"><p>1</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/TYHjNV8Y/20130105-132348.jpg"><p>2</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/gkBytV9d/20130105-132416.jpg"><p>3</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/vHS72rRT/20130105-132607.jpg"><p>4</p>
