@@ -213,7 +213,6 @@ html, body {
   height: 100%;
   margin: 0;
   background: var(--side-color);
-  box-sizing: border-box;
 }
 
 /* bande laterali fisse */
