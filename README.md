@@ -119,7 +119,7 @@ h1{ font-size:28px; margin-top:6px; }
 /* responsive tweaks */
 @media (max-width: 900px){
   .grid{ grid-template-columns: repeat(2, 1fr); } /* phones/tablets: 2 columns */
-  .gallery img{ width: calc(50% - 6px); height:140px; }
+  .gallery img{ width: calc(50% - 32px); height:140px; }
   .hero{ height:73px; font-size:21px; }
   .container{ padding:0 2px 40px; }
 }
