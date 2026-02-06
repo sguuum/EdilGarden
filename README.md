@@ -45,7 +45,6 @@
 
     /* MENU */
     nav {
-      position: fixed;
       top: 0;
       left: 0;
       right: 0;
@@ -104,7 +103,6 @@
   .container {
     max-width: 800px;
     margin: auto;
-    padding: 25px;
   }
 
   h1 {
