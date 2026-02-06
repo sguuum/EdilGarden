@@ -491,7 +491,6 @@ img,video{ max-width:100%; height:auto; display:block; }
     <h2>Box Auto</h2>
     <div class="gallery">
 
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/Cx0tJd13/Whats-App-Image-2026-01-22-at-09-55-36.jpg"><p>1</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/3xZqq70Y/Whats-App-Image-2026-01-22-at-09-55-37.jpg"><p>2</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/SxGPPq2T/Whats-App-Image-2026-01-22-at-09-55-37-(1).jpg"><p>3</p>
