@@ -1,299 +1,140 @@
+<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=0.44">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Edil Garden – Prodotti</title>
 
-  <style>
-    /* iOS / Safari fixes */
-    * {
-      -webkit-text-size-adjust: 121%;
-    }
-
-    /* evita riduzione automatica font */
-    body {
-      overflow-x: hidden;
-      padding-top: env(safe-area-inset-top);
-    }
-
-    /* immagini e media responsive */
-    img, video {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    /* smoother touch scrolling for galleries */
-    .gallery {
-      -webkit-overflow-scrolling: touch;
-    }
-      nav {
-        padding: 10px 16px;
-      }
-    }
-
-    /* ---------- qui continua il tuo CSS originale ---------- */
-
-    body {
-      margin: 0;
-      font-family: system-ui, Arial, sans-serif;
-      background: #f4f4f4;
-      color: #213;
-      padding-top: 45px;
-    }
-
-    /* MENU */
-    nav {
-      top: 0;
-      left: 0;
-      right: 0;
-      background: #2d523c;
-      padding: 15px 25px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 25px;
-      z-index: 1000;
-    }
-
-
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
-  }
-
-  /* — 3 su PC e 2 su TELEFONO — */
-.grid{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 3 colonne su desktop */
-  gap: 20px;
-}
-
-@media (max-width: 600px){
-  .grid{
-    grid-template-columns: repeat(2, 1fr); /* 2 colonne su telefono */
-  }
-}
-
-
-    
-  nav a:hover { text-decoration: underline; }
-
-  /* HERO */
-  .hero {
-    width: 100%;
-    height: 174px;
-    background: url('https://www.casetteinlegnobrescia.it/casette-in-legno-top.jpg');
-    background-position: center;
   
+<style>
+/* Basic resets */
+* { box-sizing: border-box; -webkit-text-size-adjust: 100%; }
+html,body { margin:0; padding:0; height:100%; font-family: system-ui, Arial, sans-serif; background: #083826; color: #213; }
 
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-shadow: 0 3px 8px rgba(0,0,0,0.6);
-    font-size: 33px;
-    font-weight: bold;
-    letter-spacing: 0px;
-    border-bottom: 3px solid #2d523c;
-  }
-
-  /* CONTENITORE */
-  .container {
-    max-width: 800px;
-    margin: auto;
-  }
-
-  h1 {
-    color: #2d523c;
-    margin-bottom: 25px;
-    font-size: 32px;
-  }
-
-  h2 {
-    color: #2d523c;
-    margin-top: 20px;
-  }
-
-  .product {
-    background: white;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    cursor: pointer;
-    transition: transform .15s ease;
-  }
-
-  .product:hover {
-    transform: scale(1.03);
-  }
-
-  .product img {
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .product-title {
-    padding: 9px;
-    font-weight: bold;
-    color: #2d523c;
-    text-align: center;
-  }
-
-  /* SEZIONI */
-  .section {
-    display: none;
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    margin-top: 30px;
-  }
-
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 15px;
-  }
-
-  .gallery img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-    cursor: zoom-in;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  }
-
-  /* POPUP ZOOM */
-  #zoom-popup {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.85);
-    display: none;
-    justify-content: center;
-  }
-
-  #zoom-popup img {
-    
-    max-height: 65%;
-    border-radius: 12px;
-    cursor: zoom-out;
-    transition: transform 0.15s ease;
-  }
-
-  .back-btn {
-    margin-top: 20px;
-    background: #2d523c;
-    color: white;
-    padding: 10px 18px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-
-
+/* central site wrapper */
 :root{
   --side-color: #083826;
-  --side-width: 90px;
-  --content-maxw: 1150px;
-  --page-vertical-gap: -16px;
   --content-bg: #ffffff;
-  --content-radius: 23px;
-  --content-shadow: 0 10px 30px rgba(0,0,0,0.20);
+  --content-radius: 18px;
+  --content-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  --content-maxw: 1200px;
+  --gap: 20px;
 }
 
-/* sfondo pagina verde scuro visibile ai lati */
-html, body {
-  height: 100%;
-  margin: 0;
-  background: var(--side-color);
-}
-
-/* bande laterali fisse */
-body::before,
-body::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: var(--side-width);
-  background: var(--side-color);
-  z-index: 0;
-  pointer-events: none;
-}
-body::before { left: 0; }
-body::after  { right: 0; }
-
-/* contenitore centrale che racchiude tutto il sito */
-.site-wrapper {
-  position: relative;
-  z-index: 1;
+.site-wrapper{
   max-width: var(--content-maxw);
-  margin: var(--page-vertical-gap) auto;
+  margin: 0 auto;
   background: var(--content-bg);
+  min-height: 100vh;
   border-radius: var(--content-radius);
   box-shadow: var(--content-shadow);
-  min-height: calc(100vh - (var(--page-vertical-gap) * 2));
-  outline: var(--frame-border) solid var(--side-color);
-  outline-offset: -12px;
+  overflow: visible;
 }
 
-/* se header è fixed, aggiusta il padding-top */
-body.with-fixed-header .site-wrapper {
-  padding-top: calc(30px + 70px); /* sostituisci 70px con l'altezza reale dell'header */
+/* header / nav */
+nav{
+  background: #2d523c;
+  padding: 14px 18px;
+  display:flex;
+  align-items:center;
+  gap:16px;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  border-top-left-radius: var(--content-radius);
+  border-top-right-radius: var(--content-radius);
+}
+nav a{ color:#fff; text-decoration:none; font-weight:700; cursor:pointer; }
+nav a:hover{ text-decoration:underline; }
+
+/* hero */
+.hero{
+  height: 180px;
+  background-image: url('https://www.casetteinlegnobrescia.it/casette-in-legno-top.jpg');
+  background-size: cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color: #fff;
+  font-size: 34px;
+  font-weight:700;
+  text-shadow: 0 3px 8px rgba(0,0,0,0.5);
+  border-bottom: 3px solid #2d523c;
 }
 
-/* responsive */
-@media (max-width: 1024px) { :root { --side-width: 0px; } }
-@media (max-width: 600px) {
-  :root { --side-width: 0px; }
-  body::before, body::after { display: none; }
-  .site-wrapper { margin: 12px; padding: 18px; min-height: auto; outline-offset: -8px; }
+/* container for page content */
+.container{
+  width:100%;
+  max-width:1100px;
+  margin: 26px auto;
+  padding: 0 16px 48px;
 }
 
+/* headings */
+h1,h2{ color:#2d523c; margin: 0 0 16px 0; }
+h1{ font-size:28px; margin-top:6px; }
 
-
-  body::before,
-  body::after{
-    display:none;
-  }
-
-  .site-wrapper{
-    margin:0;
-    border-radius:0;
-    box-shadow:none;
-  }
-
-  body{
-    font-size:16px;
-  }
-
-  /* --- QUI: griglia 2 colonne per telefono --- */
-
+/* grid: 3 columns on desktop, 2 on small screens (phone) */
+.grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr); /* desktop: 3 columns */
+  gap: var(--gap);
+  align-items:start;
 }
 
+/* product card */
+.product{
+  background:#fff;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  cursor:pointer;
+  transition: transform .12s ease, box-shadow .12s ease;
+  display:flex;
+  flex-direction:column;
+}
+.product:hover{ transform: translateY(-4px); box-shadow: 0 10px 22px rgba(0,0,0,0.09); }
+.product img{ width:100%; height:170px; object-fit:cover; display:block; }
+.product-title{ padding:10px; text-align:center; font-weight:700; color:#2d523c; }
 
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
+/* gallery layout inside sections */
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+.gallery img{ width: calc(33.333% - 8px); height:160px; object-fit:cover; border-radius:8px; cursor:zoom-in; box-shadow:0 4px 12px rgba(0,0,0,0.06); }
 
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+/* popup zoom */
+#zoom-popup{
+  position:fixed; inset:0; display:none; align-items:center; justify-content:center;
+  background: rgba(0,0,0,0.85); z-index:2000;
+}
+#zoom-popup img{ max-width:95%; max-height:80%; border-radius:12px; transform:scale(1); transition: transform .12s ease; }
 
-  .card {
-    width: 100%;
-    margin-bottom: 15px;
-  }
+/* section handling */
+.section{ display:none; padding:18px 0 0 0; }
+.back-btn{ margin-top:18px; background:#2d523c; color:white; padding:10px 16px; border:none; border-radius:8px; cursor:pointer; }
+
+/* responsive tweaks */
+@media (max-width: 900px){
+  .grid{ grid-template-columns: repeat(2, 1fr); } /* phones/tablets: 2 columns */
+  .gallery img{ width: calc(50% - 6px); height:140px; }
+  .hero{ height:140px; font-size:26px; }
+  .container{ padding:0 12px 40px; }
 }
 
+@media (max-width: 420px){
+  .gallery img{ width: 100%; height:180px; }
+  .product img{ height:140px; }
+}
+
+/* small accessibility and niceties */
+img,video{ max-width:100%; height:auto; display:block; }
 </style>
+
 </head>
 
 <body>
