@@ -811,7 +811,7 @@ img,video{ max-width:100%; height:auto; display:block; }
     <h2>Chioschi</h2>
     <div class="gallery">
 
-     <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/h4Z2zzDb/20141014-112546.jpg"><p>1</p>
+      <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/h4Z2zzDb/20141014-112546.jpg"><p>1</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/qBD1hhJj/20141026-100917.jpg"><p>2</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/pVcshhWB/20141205-160002.jpg"><p>3</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/G3gX88Lp/20141205-160025.jpg"><p>4</p>
@@ -1011,7 +1011,7 @@ img,video{ max-width:100%; height:auto; display:block; }
     <h2>Soluzioni industriali</h2>
     <div class="gallery">
 
-      <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/L8RQRkCX/20130701-141641(1).jpg"><p>1</p>
+ <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/L8RQRkCX/20130701-141641(1).jpg"><p>1</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/yNpLFMVX/20130704-092333(1).jpg"><p>2</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/rpwhRVLG/20130704-092453(1).jpg"><p>3</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/q7D18Pk2/20130708-152328(1).jpg"><p>4</p>
@@ -1067,7 +1067,7 @@ img,video{ max-width:100%; height:auto; display:block; }
     <h2>Case abitabili</h2>
     <div class="gallery">
 
-      <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/fy3VjZkq/Whats-App-Image-2026-01-14-at-16-32-28.jpg"><p>1</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/fy3VjZkq/Whats-App-Image-2026-01-14-at-16-32-28.jpg"><p>1</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/1t7gq4R6/Whats-App-Image-2026-01-14-at-16-32-28-(1).jpg"><p>2</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/SRXn7qjt/Whats-App-Image-2026-01-14-at-16-33-47.jpg"><p>3</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/gjwxqdnk/Whats-App-Image-2026-01-14-at-16-33-49.jpg"><p>4</p>
@@ -1089,6 +1089,7 @@ img,video{ max-width:100%; height:auto; display:block; }
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/fT93VwGK/Whats-App-Image-2026-01-14-at-16-33-56-(2).jpg"><p>20</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/hPdJXSk2/Whats-App-Image-2026-01-14-at-16-33-56-(3).jpg"><p>21</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/L8FJfcSv/Whats-App-Image-2026-01-14-at-16-33-57.jpg"><p>22</p>
+
 
 
     </div>
