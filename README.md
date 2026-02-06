@@ -9,7 +9,7 @@
 <style>
 /* Basic resets */
 * { box-sizing: border-box; -webkit-text-size-adjust: 71%; }
-html,body { margin:-6px; padding:0; height:100%; font-family: system-ui, Arial, sans-serif; background: #083826; color: #213; }
+html,body { margin:0px; padding:0; height:100%; font-family: system-ui, Arial, sans-serif; background: #083826; color: #213; }
 
 /* central site wrapper */
 :root{
