@@ -94,7 +94,7 @@ h1{ font-size:28px; margin-top:6px; }
   flex-direction:column;
 }
 .product:hover{ transform: translateY(-4px); box-shadow: 0 10px 22px rgba(0,0,0,0.09); }
-.product img{ width:100%; height:170px; object-fit:cover; display:block; }
+.product img{ width:100%; object-fit:cover; display:block; }
 .product-title{ padding:10px; text-align:center; font-weight:700; color:#2d523c; }
 
 /* gallery layout inside sections */
