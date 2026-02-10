@@ -66,7 +66,6 @@ nav a:hover{ text-decoration:underline; }
 .container{
   width:100%;
   max-width:1100px;
-  margin: 26px auto;
   padding: 0 16px 48px;
 }
 
