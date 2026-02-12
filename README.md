@@ -332,21 +332,19 @@ img,video{ max-width:100%; height:auto; display:block; }
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/xC8kJt01/Whats-App-Image-2026-01-08-at-08-26-50.jpg"><p>7</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/tTcshWTQ/Whats-App-Image-2026-01-08-at-08-27-34.jpg"><p>8</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/vBK4WfBb/Whats-App-Image-2026-01-08-at-08-27-54.jpg"><p>9</p>
-
-
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/CMPcjW4d/Whats-App-Image-2026-01-22-at-08-22-04.jpg"><p>12</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/6qmztvQc/Whats-App-Image-2026-01-22-at-08-22-04-(1).jpg"><p>13</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/8kKZhqbz/Whats-App-Image-2026-01-22-at-08-22-04-(2).jpg"><p>14</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/g0HDr5J9/Whats-App-Image-2026-01-22-at-08-22-05.jpg"><p>15</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/ZKWVjVf0/Whats-App-Image-2026-01-22-at-08-22-05-(1).jpg"><p>16</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/g0HDr5Jz/Whats-App-Image-2026-01-22-at-08-22-05-(2).jpg"><p>17</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/k5vcDZ45/Whats-App-Image-2026-01-22-at-08-22-05-(3).jpg"><p>18</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/26jxWwbL/Whats-App-Image-2026-01-22-at-08-22-06.jpg"><p>19</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/257w3J6b/Whats-App-Image-2026-01-22-at-08-22-06-(1).jpg"><p>20</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/TwkJJDgV/Whats-App-Image-2026-01-22-at-08-22-07.jpg"><p>21</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/k4MySc68/Whats-App-Image-2026-01-22-at-08-22-07-(1).jpg"><p>22</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/fLWvdKtm/Whats-App-Image-2026-01-22-at-08-22-07-(2).jpg"><p>23</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/k4MySc6f/Whats-App-Image-2026-01-22-at-08-22-07-(3).jpg"><p>24</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/CMPcjW4d/Whats-App-Image-2026-01-22-at-08-22-04.jpg"><p>10</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/6qmztvQc/Whats-App-Image-2026-01-22-at-08-22-04-(1).jpg"><p>11</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/8kKZhqbz/Whats-App-Image-2026-01-22-at-08-22-04-(2).jpg"><p>12</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/g0HDr5J9/Whats-App-Image-2026-01-22-at-08-22-05.jpg"><p>13</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/ZKWVjVf0/Whats-App-Image-2026-01-22-at-08-22-05-(1).jpg"><p>14</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/g0HDr5Jz/Whats-App-Image-2026-01-22-at-08-22-05-(2).jpg"><p>15</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/k5vcDZ45/Whats-App-Image-2026-01-22-at-08-22-05-(3).jpg"><p>16</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/26jxWwbL/Whats-App-Image-2026-01-22-at-08-22-06.jpg"><p>17</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/257w3J6b/Whats-App-Image-2026-01-22-at-08-22-06-(1).jpg"><p>18</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/TwkJJDgV/Whats-App-Image-2026-01-22-at-08-22-07.jpg"><p>19</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/k4MySc68/Whats-App-Image-2026-01-22-at-08-22-07-(1).jpg"><p>20</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/fLWvdKtm/Whats-App-Image-2026-01-22-at-08-22-07-(2).jpg"><p>21</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/k4MySc6f/Whats-App-Image-2026-01-22-at-08-22-07-(3).jpg"><p>22</p>
 
 
     </div>
@@ -371,20 +369,17 @@ img,video{ max-width:100%; height:auto; display:block; }
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/FHM04Jt9/Whats-App-Image-2026-01-22-at-09-19-51.jpg"><p>11</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/43pVNNZg/Whats-App-Image-2026-01-22-at-09-19-52.jpg"><p>12</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/3w2mJJ77/Whats-App-Image-2026-01-22-at-09-19-52-(1).jpg"><p>13</p>
-
-
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/g038kkdz/Whats-App-Image-2026-01-22-at-09-24-17.jpg"><p>16</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/FK03ssms/Whats-App-Image-2026-01-22-at-09-24-18.jpg"><p>17</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/bv1kNN8J/Whats-App-Image-2026-01-22-at-09-24-18-(1).jpg"><p>18</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/s257DDyM/Whats-App-Image-2026-01-22-at-09-24-18-(2).jpg"><p>19</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/wBDLTTHR/Whats-App-Image-2026-01-22-at-09-24-18-(3).jpg"><p>20</p>
-
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/XJdgBkbw/Whats-App-Image-2026-01-22-at-09-45-20.jpg"><p>22</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/NMmx2kcR/Whats-App-Image-2026-01-22-at-09-45-20-(1).jpg"><p>23</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/1twKVrQG/Whats-App-Image-2026-01-22-at-09-45-20-(2).jpg"><p>24</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/FR3xkV4g/Whats-App-Image-2026-01-22-at-09-45-20-(3).jpg"><p>25</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/8PcgM77L/Whats-App-Image-2026-01-22-at-10-01-50.jpg"><p>26</p>
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/bNrfkZZs/Whats-App-Image-2026-01-22-at-10-01-50-(1).jpg"><p>27</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/g038kkdz/Whats-App-Image-2026-01-22-at-09-24-17.jpg"><p>14</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/FK03ssms/Whats-App-Image-2026-01-22-at-09-24-18.jpg"><p>15</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/bv1kNN8J/Whats-App-Image-2026-01-22-at-09-24-18-(1).jpg"><p>16</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/s257DDyM/Whats-App-Image-2026-01-22-at-09-24-18-(2).jpg"><p>17</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/wBDLTTHR/Whats-App-Image-2026-01-22-at-09-24-18-(3).jpg"><p>18</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/XJdgBkbw/Whats-App-Image-2026-01-22-at-09-45-20.jpg"><p>19</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/NMmx2kcR/Whats-App-Image-2026-01-22-at-09-45-20-(1).jpg"><p>20</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/1twKVrQG/Whats-App-Image-2026-01-22-at-09-45-20-(2).jpg"><p>21</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/FR3xkV4g/Whats-App-Image-2026-01-22-at-09-45-20-(3).jpg"><p>22</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/8PcgM77L/Whats-App-Image-2026-01-22-at-10-01-50.jpg"><p>23</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/bNrfkZZs/Whats-App-Image-2026-01-22-at-10-01-50-(1).jpg"><p>24</p>
 
     </div>
     <button class="back-btn" onclick="openSection('casette')">Torna alle casette</button>
@@ -410,75 +405,59 @@ img,video{ max-width:100%; height:auto; display:block; }
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/6QQPJnwk/Whats-App-Image-2026-01-22-at-08-38-48-(2).jpg"><p>10</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/s22Ld7sy/Whats-App-Image-2026-01-22-at-08-38-48-(3).jpg"><p>11</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/4330kVsy/Whats-App-Image-2026-01-22-at-08-38-48-(4).jpg"><p>12</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/SsJH88vZ/Whats-App-Image-2026-01-22-at-08-38-49.jpg"><p>13</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/mDJJSkxZ/Whats-App-Image-2026-01-22-at-08-38-49-(1).jpg"><p>14</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/DZHHcZ99/Whats-App-Image-2026-01-22-at-08-38-49-(2).jpg"><p>15</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/26MMxypS/Whats-App-Image-2026-01-22-at-08-38-49-(3).jpg"><p>16</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/MTNNYHkK/Whats-App-Image-2026-01-22-at-08-38-49-(4).jpg"><p>17</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/FR88xzt7/Whats-App-Image-2026-01-22-at-08-38-50.jpg"><p>18</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/8cv3XGDm/Whats-App-Image-2026-01-22-at-08-38-50-(1).jpg"><p>19</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/5yzGKJ17/Whats-App-Image-2026-01-22-at-08-38-50-(2).jpg"><p>20</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/7PJpZ378/Whats-App-Image-2026-01-22-at-08-38-50-(3).jpg"><p>21</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/ZYv1583n/Whats-App-Image-2026-01-22-at-08-38-50-(4).jpg"><p>22</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/VLy2rJBr/Whats-App-Image-2026-01-22-at-08-38-51.jpg"><p>23</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/QxLv9Fk1/Whats-App-Image-2026-01-22-at-08-38-51-(1).jpg"><p>24</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/gk91Xxq4/Whats-App-Image-2026-01-22-at-08-38-51-(2).jpg"><p>25</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/qM8S8pjb/Whats-App-Image-2026-01-22-at-08-38-52.jpg"><p>26</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/tChwh9BQ/Whats-App-Image-2026-01-22-at-08-38-52-(1).jpg"><p>27</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/MG3wyvZz/Whats_App_Image_2026_01_09_at_16_04_15_(1).jpg"><p>28</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/1tgQMs40/Whats_App_Image_2026_01_09_at_16_04_15_(4).jpg"><p>29</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/yYhzLf6J/Whats_App_Image_2026_01_09_at_16_04_16.jpg"><p>30</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/64WPCd1N/Whats-App-Image-2026-01-09-at-16-04-16-(1).jpg"><p>31</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/zXYrSmNB/Whats_App_Image_2026_01_09_at_16_04_16_(2).jpg"><p>32</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/zXw1xdDM/Whats_App_Image_2026_01_09_at_16_04_17_(2).jpg"><p>33</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/ykrGS3m2/Whats-App-Image-2026-01-09-at-16-04-18-(2).jpg"><p>34</p>
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/porticato-in-legno-lamellare-2014.jpg"><p>35</p>
-
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/porticati/porticato-con-struttura-in-legno-lamellare-2016.jpg"><p>36</p>
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/arcover-legno-edilgarden.jpg"><p>37</p>
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/arcover-per-auto.jpg"><p>38</p>
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/arcover-auto-3-new.jpg"><p>39</p>
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/arcover-auto-2.jpg"><p>40</p>
-
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/arcover-posti-auto-new.jpg"><p>41</p>
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/arcover-brescia.jpg"><p>42</p>
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/arcover-edilgarden.jpg"><p>43</p>
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/porticato-completo-di-pannelli-frangivento.jpg"><p>44</p>
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/porticato-completo-di-pannelli-frangivento-2.jpg"><p>45</p>
-
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/porticato-completo-di-casetta-ripostiglio.jpg"><p>46</p>
 <img loading="lazy" class="zoom-img" src="https://www.casetteinlegnobrescia.it/arcover-legno-auto/porticato-in-legno-lamellare-2014.jpg"><p>47</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/sMqbbG1s/Whats-App-Image-2026-01-09-at-16-00-14.jpg"><p>48</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/WdhQ9wNx/Whats-App-Image-2026-01-09-at-16-00-14-(1).jpg"><p>49</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/WdhQ9wpc/Whats-App-Image-2026-01-09-at-16-00-14-(3).jpg"><p>50</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/PCPB6Qff/Whats-App-Image-2026-01-09-at-16-00-14-(5).jpg"><p>51</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/WdCxxqtG/Whats-App-Image-2026-01-09-at-16-00-15.jpg"><p>52</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/MnNggfXT/Whats-App-Image-2026-01-09-at-16-00-15-(1).jpg"><p>53</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/TKFBB5hy/Whats-App-Image-2026-01-09-at-16-00-15-(3).jpg"><p>54</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/9DKssw-zw/Whats-App-Image-2026-01-09-at-16-00-15-(4).jpg"><p>55</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/qNSW-W6g8/Whats-App-Image-2026-01-09-at-16-00-15-(5).jpg"><p>56</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/Sn3HHYj7/Whats-App-Image-2026-01-09-at-16-03-51.jpg"><p>57</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/62LS7Hc2/Whats-App-Image-2026-01-09-at-16-04-14.jpg"><p>58</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/f3d1sW-03/Whats-App-Image-2026-01-09-at-16-04-14-(1).jpg"><p>59</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/S275XZdq/Whats-App-Image-2026-01-09-at-16-04-14-(3).jpg"><p>60</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/7GMcCB90/Whats-App-Image-2026-01-09-at-16-04-15-(5).jpg"><p>61</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/zXYrSmNB/Whats_App_Image_2026_01_09_at_16_04_16_(2).jpg"><p>63</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/rzj3MPzb/Whats-App-Image-2026-01-09-at-16-04-16-(4).jpg"><p>64</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/14B2sjfQ/Whats-App-Image-2026-01-09-at-16-04-16-(5).jpg"><p>65</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/BXwz1PTP/Whats-App-Image-2026-01-09-at-16-04-17-(3).jpg"><p>67</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/RNbYnJ15/Whats-App-Image-2026-01-09-at-16-04-18.jpg"><p>68</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/gnB76LVg/Whats-App-Image-2026-01-09-at-16-04-18-(1).jpg"><p>69</p>
 
