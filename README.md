@@ -396,10 +396,8 @@ img,video{ max-width:100%; height:auto; display:block; }
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/tChwh9BC/Whats-App-Image-2026-01-22-at-08-38-46-(2).jpg"><p>3</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/K8xVfCWF/Whats-App-Image-2026-01-22-at-08-38-46-(3).jpg"><p>4</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/pLR7C3Sd/Whats-App-Image-2026-01-22-at-08-38-46-(4).jpg"><p>5</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/6ptScFPr/Whats-App-Image-2026-01-22-at-08-38-47.jpg"><p>6</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/htsY5pFC/Whats-App-Image-2026-01-22-at-08-38-47-(1).jpg"><p>7</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/zG7Qc0mx/Whats-App-Image-2026-01-22-at-08-38-48.jpg"><p>8</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/R00Y5K92/Whats-App-Image-2026-01-22-at-08-38-48-(1).jpg"><p>9</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/6QQPJnwk/Whats-App-Image-2026-01-22-at-08-38-48-(2).jpg"><p>10</p>
@@ -607,7 +605,7 @@ img,video{ max-width:100%; height:auto; display:block; }
     <h2>Gazebo</h2>
     <div class="gallery">
 
-      <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/PrYcHdZd/Whats-App-Image-2026-01-22-at-08-47-21.jpg"><p>1</p>
+<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/PrYcHdZd/Whats-App-Image-2026-01-22-at-08-47-21.jpg"><p>1</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/CMWt9RRv/Whats-App-Image-2026-01-22-at-08-47-21-(1).jpg"><p>2</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/W3xWRy1c/Whats-App-Image-2026-01-22-at-08-47-21-(2).jpg"><p>3</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/T3xsYBqp/Whats-App-Image-2026-01-22-at-08-47-21-(3).jpg"><p>4</p>
@@ -622,7 +620,6 @@ img,video{ max-width:100%; height:auto; display:block; }
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/QMt0FDFY/Whats-App-Image-2026-01-22-at-08-47-23-(2).jpg"><p>13</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/x19sSMn0/Whats-App-Image-2026-01-22-at-08-47-24.jpg"><p>14</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/qMVbjWFj/Whats-App-Image-2026-01-22-at-08-47-24-(1).jpg"><p>15</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/d1sLYVgZ/20140811-111551.jpg"><p>16</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/FH0RkS4s/20140811-111611.jpg"><p>17</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/43Z363fx/20140811-111627.jpg"><p>18</p>
@@ -634,21 +631,17 @@ img,video{ max-width:100%; height:auto; display:block; }
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/cJXdfM5q/20140811-144610.jpg"><p>24</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/TwsG4260/20140811-150044.jpg"><p>25</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/pLv9ZCkZ/20140811-150056.jpg"><p>26</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/fW6S3D96/20160615-134459.jpg"><p>27</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/Jz8yqxKr/20160615-134534.jpg"><p>28</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/vZy1zhX7/20160615-134700.jpg"><p>29</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/HktrPMPh/20180614-163116.jpg"><p>30</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/6Q58sQkJ/20180614-163246.jpg"><p>31</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/s26v3rzn/20180614-163304.jpg"><p>32</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/NMKLMzG8/20180614-163316.jpg"><p>33</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/HxFn79Vr/20180614-163438.jpg"><p>34</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/J0Jn3HkQ/20180904-145621.jpg"><p>35</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/J7BGCv2k/20180904-183754.jpg"><p>36</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/G3sHnV5G/20180904-183901.jpg"><p>37</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/PrWJPZhn/DSC00341.jpg"><p>38</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/vHrTc9Ms/IMGP0940.jpg"><p>39</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/nc4rC7Zj/IMGP0946.jpg"><p>40</p>
@@ -657,7 +650,6 @@ img,video{ max-width:100%; height:auto; display:block; }
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/vZXmvs4Q/IMGP1059.jpg"><p>43</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/BnNvC0jJ/IMGP1060.jpg"><p>44</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/7L6ZsWzf/IMGP1062.jpg"><p>45</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/R0FZsDt0/IMGP1632.jpg"><p>46</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/j5ndKnZr/Immagine-1411.jpg"><p>47</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/rs6ypyPq/Immagine-1414.jpg"><p>48</p>
@@ -665,12 +657,10 @@ img,video{ max-width:100%; height:auto; display:block; }
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/25K8P7d1/Immagine-430.jpg"><p>50</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/jjFdG46h/Immagine-433.jpg"><p>51</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/CKQLWsCX/Immagine-473.jpg"><p>52</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/d3MQ0Qxy/P1010037.jpg"><p>53</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/FzjrktM0/P1010136.jpg"><p>54</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/nrvF98yN/PC190065.jpg"><p>55</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/yxF134qH/PC220127.jpg"><p>56</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/15rR9Qc6/rosolina-2011-238.jpg"><p>57</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/CxMh5QmD/rosolina-2011-241.jpg"><p>58</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/Wz010tWM/Whats-App-Image-2026-01-22-at-09-27-17.jpg"><p>59</p>
@@ -848,28 +838,21 @@ img,video{ max-width:100%; height:auto; display:block; }
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/0QWyfpnH/Whats-App-Image-2026-01-22-at-08-31-23-(1).jpg"><p>57</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/1X85YfYV/Whats-App-Image-2026-01-22-at-08-31-23-(2).jpg"><p>58</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/2y18XVXZ/Whats-App-Image-2026-01-22-at-08-31-23-(3).jpg"><p>59</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/5yXNk6kB/Whats-App-Image-2026-01-22-at-08-31-24.jpg"><p>60</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/Kj1vsRsS/Whats-App-Image-2026-01-22-at-08-31-24-(1).jpg"><p>61</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/054NK0bf/Whats-App-Image-2026-01-22-at-08-31-25.jpg"><p>62</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/DfNz4P8W/Whats-App-Image-2026-01-22-at-08-31-25-(1).jpg"><p>63</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/pVSd5Jp5/Whats-App-Image-2026-01-22-at-08-31-25-(2).jpg"><p>64</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/zv4Xm89w/Whats-App-Image-2026-01-22-at-08-31-25-(3).jpg"><p>65</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/sx5DRtsf/Whats-App-Image-2026-01-22-at-08-33-31.jpg"><p>66</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/L5j6Mr2X/Whats-App-Image-2026-01-22-at-08-33-31-(1).jpg"><p>67</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/HWML575b/Whats-App-Image-2026-01-22-at-08-33-32.jpg"><p>68</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/sfW2SZS9/Whats-App-Image-2026-01-22-at-08-33-33.jpg"><p>69</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/Kz6vwZXg/Whats-App-Image-2026-01-22-at-08-33-33-(1).jpg"><p>70</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/ZRGK2Tkg/Whats-App-Image-2026-01-22-at-08-33-33-(2).jpg"><p>71</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/FRMs89tB/Whats-App-Image-2026-01-22-at-08-33-34.jpg"><p>72</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/bJ7NWzXK/Whats-App-Image-2026-01-22-at-08-33-34-(1).jpg"><p>73</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/gJCkQY9Q/Whats-App-Image-2026-01-22-at-08-33-34-(2).jpg"><p>74</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/MH1K8hxr/Whats-App-Image-2026-01-22-at-08-33-35.jpg"><p>75</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/Y0QqwJMc/Whats-App-Image-2026-01-22-at-08-33-35-(1).jpg"><p>76</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/0j72qLPx/Whats-App-Image-2026-01-22-at-08-33-35-(2).jpg"><p>77</p>
@@ -1028,7 +1011,6 @@ img,video{ max-width:100%; height:auto; display:block; }
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/NMhHqDb5/20140918-130222.jpg"><p>37</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/D06JGThh/20140918-130342.jpg"><p>38</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/C57B8g05/20140918-130649.jpg"><p>39</p>
-
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/BQZ10X5x/20160502-101840.jpg"><p>41</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/W1hFdCf9/20160502-101931.jpg"><p>42</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/jd8ndtvg/CASETTA-MONICA-GHIDINI-03.jpg"><p>43</p>
