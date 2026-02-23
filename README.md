@@ -237,7 +237,6 @@ img,video{ max-width:100%; height:auto; display:block; }
     <h2>Case in legno</h2>
     <div class="gallery">
 
-<img loading="lazy" class="zoom-img" src="https://i.postimg.cc/J4J7t9CS/Whats-App-Image-2025-12-20-at-11-09-20.jpg"><p>1</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/D09NtjCg/Whats-App-Image-2025-12-20-at-11-09-20-(1).jpg"><p>2</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/PfC5nC3Z/Whats-App-Image-2025-12-20-at-11-09-20-(10).jpg"><p>3</p>
 <img loading="lazy" class="zoom-img" src="https://i.postimg.cc/RCWZxWsN/Whats-App-Image-2025-12-20-at-11-09-20-(11).jpg"><p>4</p>
