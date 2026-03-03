@@ -18,7 +18,7 @@ html,body { margin:-7px; padding:0; height:100%; font-family: system-ui, Arial, 
   --content-radius: 18px;
   --content-shadow: 0 10px 30px rgba(0,0,0,0.12);
   --content-maxw: 1200px;
-  --gap: 20px;
+  --gap: 4px;
 }
 
 .site-wrapper{
